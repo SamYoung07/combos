@@ -7,15 +7,15 @@ st.title("Combo Generator")
 st.write("Randomly Generate a Boxing Combo")
 
 options = [3,4,5]
-#jab = Image.open(r"images\jab.jpg")
-cross = Image.open(r"images\cross.jpg")
-l_hook = Image.open(r"images\l-hook.jpg")
-r_hook = Image.open(r"images\d-hook.jpg")#r dont work :(
-l_cut = Image.open(r"images\l-uppercut.jpg")
-r_cut = Image.open(r"images\d-uppercut.jpg")#r dont work :(
-slip = Image.open(r"images\slip.jpg")
+jab = Image.open("jab.jpg")
+cross = Image.open("cross.jpg")
+l_hook = Image.open("l-hook.jpg")
+r_hook = Image.open("d-hook.jpg")#r dont work :(
+l_cut = Image.open("l-uppercut.jpg")
+r_cut = Image.open("d-uppercut.jpg")#r dont work :(
+slip = Image.open("slip.jpg")
 
-moves = [cross, l_hook, r_hook, l_cut, r_cut, slip]
+moves = [jab, cross, l_hook, r_hook, l_cut, r_cut, slip]
 
 left, middle, right = st.columns(3)
 if middle.button("CREATE"):
