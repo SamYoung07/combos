@@ -15,7 +15,7 @@ l_cut = Image.open("l-uppercut.jpg")
 r_cut = Image.open("d-uppercut.jpg")#r dont work :(
 slip = Image.open("slip.jpg")
 
-moves = [jab, cross, l_hook, r_hook, l_cut, r_cut, slip]
+moves = [jab, jab, jab, jab, cross, cross, cross, l_hook, r_hook, l_cut, r_cut, slip, slip]
 
 left, middle, right = st.columns(3)
 if middle.button("CREATE"):
