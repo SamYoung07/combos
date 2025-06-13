@@ -7,8 +7,8 @@ st.title("Combo Generator")
 st.write("Randomly Generate a Boxing Combo")
 
 options = [3,4,5]
-jab = Image.open(r"images\Jab.jpg")
-cross = Image.open(r"images\Cross.jpg")
+jab = Image.open(r"images\jab.jpg")
+cross = Image.open(r"images\cross.jpg")
 l_hook = Image.open(r"images\l-hook.jpg")
 r_hook = Image.open(r"images\d-hook.jpg")#r dont work :(
 l_cut = Image.open(r"images\l-uppercut.jpg")
